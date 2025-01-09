@@ -27,7 +27,7 @@ const UpcomingProjects = () => {
         <div className='flex gap-[29px] py-12 max-sm:pb-7 max-sm:pt-10 max-xl:flex-wrap justify-center'>
           {PROJECTS_LIST.map((obj, i) => (
             <div key={i} className='p-4 border border-white border-opacity-10 rounded-xl shadow-[0px_-1px_20px_0px] shadow-lightGray bg-white bg-opacity-10'>
-              <img src={obj.image} alt={obj.imgAlt} className='h-[234px]' />
+              <img src={obj.image} alt={obj.imgAlt} className='h-[234px] pointer-events-none' />
               <div className='flex items-center justify-between pt-[15px]'>
                 <p className='font-sunflower font-medium text-xl leading-6 text-white'>{obj.heroName}</p>
                 <p className='font-sunflower font-bold text-base leading-5 text-white'>{formatTime(time)}</p>
