@@ -20,7 +20,7 @@ const UpcomingProjects = () => {
     return `${String(hours).padStart(2, '0')} : ${String(minutes).padStart(2, '0')} : ${String(secs).padStart(2, '0')}`;
   };
   return (
-    <div className='pt-[95px] pb-[136px] max-md:py-16 max-sm:pb-10 max-sm:pt-20 relative max-w-[1440px] mx-auto'>
+    <div id='projects' className='pt-[95px] pb-[136px] max-md:py-16 max-sm:pb-10 max-sm:pt-20 relative max-w-[1440px] mx-auto'>
       <div className='absolute h-[100px] w-[100px] rounded-full bg-white blur-[60px] right-0 bottom-0'></div>
       <div className='max-w-[1172px] mx-auto px-4'>
         <Heading text="upcoming projects" />

@@ -8,8 +8,8 @@ import { DownArrow, RightArrow } from '../utils/icons'
 
 const Hero = () => {
   return (
-    <div>
-      <div className='relative max-w-[1440px] mx-auto'>
+    <>
+      <div id='home' className='relative max-w-[1440px] mx-auto'>
         <div className='absolute h-[184px] w-[184px] rounded-full bg-white shadow-[5px_4px_1px_1px] blur-[130px] -z-10 shadow-white -left-[10%] -top-[8%]'></div>
         <div className='max-w-[1172px] mx-auto px-4'>
           <Header />
@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
