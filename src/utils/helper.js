@@ -2,7 +2,7 @@ import nubbies from "../assets/images/webp/nubbies.webp"
 import nekozuma from "../assets/images/webp/nekozuma.webp"
 import galactium from "../assets/images/webp/galactium.webp"
 import frenz from "../assets/images/webp/frenz.webp"
-import { Consultation, Contract, Media, Nft, Services, WebServices } from "./icons"
+import { Consultation, Contract, Media, Nft, WebServices } from "./icons"
 
 export const HEADER_LIST = [
     {
@@ -59,17 +59,7 @@ export const SERVICES_LIST = [
     {
         icon: <WebServices />,
         title: "Web3 Services",
-        description:""
-        // description: [
-        //     {
-        //         optionOne: "Metmask integration",
-        //         optionTwo: "NFT's",
-        //         optionThree: "Dapps",
-        //         optionFour: "Tokenomics",
-        //         optionFive: "Metaverse AR/VR",
-        //         optionSix: "SDK Gaming Integration",
-        //     }
-        // ],
+        description: ""
     },
     {
         icon: <Media />,

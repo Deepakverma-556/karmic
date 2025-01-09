@@ -10,7 +10,6 @@ module.exports = {
         space: ["Space Grotesk", "sans-serif"]
       },
       colors: {
-        gray: "#e4e4e4",
         lightGray:"#fffff1a"
       },
       backgroundImage: {
