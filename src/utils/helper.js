@@ -2,6 +2,10 @@ import nubbies from "../assets/images/webp/nubbies.webp"
 import nekozuma from "../assets/images/webp/nekozuma.webp"
 import galactium from "../assets/images/webp/galactium.webp"
 import frenz from "../assets/images/webp/frenz.webp"
+import nubbiesText from "../assets/images/webp/nubbies-text.webp"
+import sky from "../assets/images/webp/sky.webp"
+import rabbit from "../assets/images/webp/rabbit.webp"
+import balloon from "../assets/images/webp/balloon.webp"
 import { Consultation, Contract, Media, Nft, WebServices } from "./icons"
 
 export const HEADER_LIST = [
@@ -76,5 +80,41 @@ export const SERVICES_LIST = [
         title: "NFT Services",
         description: "NFT solutions from start to finish. From Initial Concept to Secondary market listings, we will guide you every step of the way to ensure your project is a successfully and seemlessly delivered come mint day."
     },
+]
+
+export const PROJECTS_IMAGE_LIST = [
+    {
+        image: nubbies,
+        imgAlt:"nubbies"
+    },
+    {
+        image: nubbiesText,
+        imgAlt:"nubbies-text"
+    },
+    {
+        image:sky,
+        imgAlt:"sky"
+    },
+    {
+        image:galactium,
+        imgAlt:"ga;actium"
+    },
+    {
+        image:nekozuma,
+        imgAlt:"nekozuma"
+    },
+    {
+        image:frenz,
+        imgAlt:"frenz"
+    },
+    {
+        image: rabbit,
+        imgAlt:"rabbit"
+    },
+    {
+        image:balloon,
+        imgAlt:"balloon"
+    },
+   
 ]
 

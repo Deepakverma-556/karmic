@@ -1,15 +1,16 @@
 import React from 'react'
+import titleline from "../assets/images/png/title-line.png"
 import Heading from '../common/Heading'
 import { SERVICES_LIST } from '../utils/helper'
 import Description from '../common/Description'
 import moon from "../assets/images/png/moon.png"
 const Services = () => {
   return (
-    <div id='services' className='pb-[136px] max-md:py-16 max-sm:pb-10 max-sm:pt-20 relative max-w-[1440px] mx-auto'>
+    <div id='services' className='pb-[136px] max-md:py-16 max-sm:pb-0 max-sm:pt-20 relative max-w-[1440px] mx-auto'>
       <div className='absolute h-[100px] w-[100px] rounded-full bg-white blur-[60px] left-0 bottom-0'></div>
-      <img src={moon} alt="moon" className='absolute left-[58%] top-[13%] -z-10' />
+      <img src={moon} alt="moon" className='absolute left-[58%] top-[13%]' />
       <div className='max-w-[1172px] mx-auto px-4'>
-        <Heading text="services" />
+        <Heading text="services" image={titleline} imageAlt="title-line" />
         <div className='flex flex-wrap pt-[77px] max-sm:pt-10 -mx-2'>
           {SERVICES_LIST.map((obj, i) => (
             <div key={i} className='w-1/3 max-md:w-1/2 max-sm:w-full px-2'>

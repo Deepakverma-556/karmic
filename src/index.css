@@ -6,7 +6,7 @@
 
 html,
 body {
-  background-image: url("./assets/images/webp/square.webp");
+  /* background-image: url("./assets/images/webp/square.webp"); */
   background-size: cover;
   background-repeat: no-repeat;
   background-color: black;
