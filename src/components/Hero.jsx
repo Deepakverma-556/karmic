@@ -14,7 +14,7 @@ const Hero = () => {
         <div className='max-w-[1172px] mx-auto px-4'>
           <Header />
         </div>
-        <div className='bg-heroLayer bg-cover bg-no-repeat w-full mx-auto relative'>
+        <div className='bg-heroLayer bg-cover bg-no-repeat w-full mx-auto'>
           <div className='max-w-[1172px] mx-auto px-4 pt-[140px] pb-[139px] max-md:pt-28 max-md:pb-16 max-sm:pb-10'>
             <div className='flex flex-wrap justify-between'>
               <div className='w-7/12 px-3 max-md:w-full'>

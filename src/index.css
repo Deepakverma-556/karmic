@@ -12,3 +12,7 @@ body {
   background-color: black;
   scroll-behavior: smooth;
 }
+
+.box-blur:hover{
+  backdrop-filter: blur(16px);
+}
