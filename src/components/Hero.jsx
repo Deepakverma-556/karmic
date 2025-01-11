@@ -5,12 +5,13 @@ import line from "../assets/images/png/line.png"
 import Description from '../common/Description'
 import CustomButton from '../common/CustomButton'
 import { DownArrow, RightArrow } from '../utils/icons'
+import CustomShadow from '../common/CustomShadow'
 
 const Hero = () => {
   return (
     <>
-      <div id='home' className='relative max-w-[1440px] mx-auto z-10'>
-        <div className='absolute h-[184px] w-[184px] rounded-full bg-white shadow-[5px_4px_1px_1px] blur-[130px] -z-10 shadow-white -left-[10%] -top-[8%]'></div>
+      <div className='relative max-w-[1440px] mx-auto z-10'>
+        <CustomShadow myClass="-left-[8%] -top-[6%]" />
         <div className='max-w-[1172px] mx-auto px-4'>
           <Header />
         </div>

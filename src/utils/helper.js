@@ -2,11 +2,15 @@ import nubbies from "../assets/images/webp/nubbies.webp"
 import nekozuma from "../assets/images/webp/nekozuma.webp"
 import galactium from "../assets/images/webp/galactium.webp"
 import frenz from "../assets/images/webp/frenz.webp"
+import frenzForever from "../assets/images/webp/frenz-forever.webp"
 import nubbiesText from "../assets/images/webp/nubbies-text.webp"
 import sky from "../assets/images/webp/sky.webp"
 import rabbit from "../assets/images/webp/rabbit.webp"
 import balloon from "../assets/images/webp/balloon.webp"
-import { Consultation, Contract, Media, Nft, WebServices } from "./icons"
+import karmicOne from "../assets/images/webp/karmic-one.webp"
+import karmicTwo from "../assets/images/webp/karmic-two.webp"
+import karmicThree from "../assets/images/webp/karmic-three.webp"
+import { Blockchain, Consultation, Contract, Facebook, Instagram, Media, Nft, Trust, Twitter, W3, WebServices, Youtube } from "./icons"
 
 export const HEADER_LIST = [
     {
@@ -47,8 +51,8 @@ export const PROJECTS_LIST = [
         company: "NFT",
     },
     {
-        image: frenz,
-        imgAlt: "frenz",
+        image: frenzForever,
+        imgAlt: "frenz-forever",
         heroName: "Frenz",
         company: "NFT",
     },
@@ -85,36 +89,86 @@ export const SERVICES_LIST = [
 export const PROJECTS_IMAGE_LIST = [
     {
         image: nubbies,
-        imgAlt:"nubbies"
+        imgAlt: "nubbies"
     },
     {
         image: nubbiesText,
-        imgAlt:"nubbies-text"
+        imgAlt: "nubbies-text"
     },
     {
-        image:sky,
-        imgAlt:"sky"
+        image: sky,
+        imgAlt: "sky"
     },
     {
-        image:galactium,
-        imgAlt:"ga;actium"
+        image: galactium,
+        imgAlt: "ga;actium"
     },
     {
-        image:nekozuma,
-        imgAlt:"nekozuma"
+        image: nekozuma,
+        imgAlt: "nekozuma"
     },
     {
-        image:frenz,
-        imgAlt:"frenz"
+        image: frenz,
+        imgAlt: "frenz"
     },
     {
         image: rabbit,
-        imgAlt:"rabbit"
+        imgAlt: "rabbit"
     },
     {
-        image:balloon,
-        imgAlt:"balloon"
+        image: balloon,
+        imgAlt: "balloon"
     },
-   
 ]
 
+export const KARMIC_LIST = [
+    {
+        image: karmicOne,
+        imgAlt: "karmic-one"
+    },
+    {
+        image: karmicTwo,
+        imgAlt: "karmic-two"
+    },
+    {
+        image: karmicThree,
+        imgAlt: "karmic-three"
+    }
+]
+
+export const VALUES_LIST = [
+    {
+        icon: <W3 />,
+        title: "w3",
+        description: "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it."
+    },
+    {
+        icon: <Blockchain />,
+        title: "Blockchain Agnostic",
+        description: "Our team of seasoned developers will help you to launch your project on the network of your choosing- be it ethereum, solana, polygon, etc.."
+    },
+    {
+        icon: <Trust />,
+        title: "Trust",
+        description: "Trustless and results driven development backed by a portfolio of success. You're the captain of the ship, and the keys are always in your hands."
+    },
+]
+
+export const SOCIAL_MEDIA_LIST = [
+    {
+        icon: <Instagram />,
+        link:"https://www.instagram.com/"
+    },
+    {
+        icon: <Twitter />,
+        link:"https://www.twitter.com/"
+    },
+    {
+        icon: <Facebook />,
+        link:"https://www.facebook.com/"
+    },
+    {
+        icon: <Youtube />,
+        link:"https://www.youtube.com/"
+    },
+]
