@@ -10,7 +10,8 @@ module.exports = {
         space: ["Space Grotesk", "sans-serif"]
       },
       colors: {
-        lightGray:"#fffff1a"
+        lightGray: "#fffff1a",
+        gray:"#1d1d1d"
       },
       backgroundImage: {
         whiteLayer:"url('./assets/images/webp/white-layer.webp')",
