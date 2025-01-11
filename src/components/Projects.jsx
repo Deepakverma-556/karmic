@@ -14,7 +14,7 @@ const Projects = () => {
                 <div className='flex flex-wrap -mx-3 pt-[53px] pb-8 max-md:pt-10 max-md:pb-6 max-sm:pb-2 max-sm:pt-7'>
                     {PROJECTS_IMAGE_LIST.map((obj, i) => (
                         <div key={i} className='px-2 w-1/4 max-md:w-1/3 max-sm:w-1/2 pb-6 max-md:pb-4'>
-                            <img src={obj.image} alt={obj.imgAlt} className='h-[174px] w-full object-cover rounded-lg hover:scale-125 max-lg:hover:scale-105 transition-all duration-300 pointer-events-none' /></div>
+                            <img src={obj.image} alt={obj.imgAlt} className='h-[174px] w-full object-cover rounded-lg hover:scale-125 max-lg:hover:scale-105 transition-all duration-300' /></div>
                     ))}
                 </div>
                 <CustomButton text="View All" myClass="px-[32.07px] !py-[11.34px] !font-medium flex !bg-transparent border border-black hover:!bg-black hover:!text-white hover:!shadow-[0px_0px_22px_3px] hover:!shadow-black !mx-auto" />
