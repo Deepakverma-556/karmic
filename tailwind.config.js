@@ -11,7 +11,8 @@ module.exports = {
       },
       colors: {
         lightGray: "#fffff1a",
-        gray:"#1d1d1d"
+        gray: "#1d1d1d",
+        darkGray:"#4d4d4d"
       },
       backgroundImage: {
         whiteLayer:"url('./assets/images/webp/white-layer.webp')",

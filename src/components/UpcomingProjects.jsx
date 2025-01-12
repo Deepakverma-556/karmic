@@ -22,7 +22,7 @@ const UpcomingProjects = () => {
     return `${String(hours).padStart(2, '0')} : ${String(minutes).padStart(2, '0')} : ${String(secs).padStart(2, '0')}`;
   };
   return (
-    <div id='projects' className='pt-[95px] pb-[136px] max-md:py-16 max-sm:pb-10 max-sm:pt-20 relative max-w-[1440px] mx-auto'>
+    <div id='projects' className='pt-[95px] pb-[136px] max-md:py-16 max-sm:pb-10 max-sm:pt-20 relative max-w-[1920px] mx-auto'>
       <CustomShadow myClass="right-0 bottom-0" />      <div className='max-w-[1172px] mx-auto px-4'>
         <Heading text="upcoming projects" image={titleline} imageAlt="title-line" />
         <div className='flex gap-[29px] py-12 max-sm:pb-7 max-sm:pt-10 max-xl:flex-wrap justify-center'>
