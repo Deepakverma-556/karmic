@@ -11,7 +11,7 @@ const Services = () => {
       <CustomShadow myClass="left-0 bottom-0" />
       <div className='max-w-[1172px] mx-auto px-4'>
         <Heading text="services" image={titleline} imageAlt="title-line" />
-        <div className='flex flex-wrap pt-[77px] max-sm:pt-10 -mx-2'>
+        <div className='flex flex-wrap pt-[77px] max-sm:pt-10 -mx-2 justify-center'>
           {SERVICES_LIST.map((obj, i) => (
             <div key={i} className='w-1/3 max-md:w-1/2 max-sm:w-full group relative px-2'>
               <img src={moon} alt="moon" className='absolute -top-[19px] -right-[23px] pointer-events-none h-[74px] hidden group-hover:block' />
