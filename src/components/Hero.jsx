@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='bg-heroLayer bg-cover bg-no-repeat w-full mx-auto'>
-        <div className='max-w-[1172px] mx-auto px-4 pt-[140px] pb-[139px] max-md:pt-28 max-md:pb-16 max-sm:pb-10'>
+        <div className='max-w-[1172px] mx-auto px-4 pt-[140px] pb-[139px] max-md:pt-28 max-md:pb-16 max-sm:pb-10 relative'>
           <div className='flex flex-wrap justify-between'>
             <div className='w-7/12 px-3 max-md:w-full'>
               <h1 className='uppercase font-sunflower text-[64px] max-lg:text-[44px] max-sm:text-4xl max-lg:leading-tight font-light leading-[69.56px] text-white'>We are believers decentralization and <span className='relative'><img src={line} alt="line" className='absolute -top-3 left-7 pointer-events-none' /><img src={line} alt="line" className='absolute -bottom-1 left-1 pointer-events-none' />WEB3.</span></h1>
@@ -31,7 +31,7 @@ const Hero = () => {
               <img src={hero} alt="hero" className='h-[447px] max-lg:h-[340px] object-cover max-md:mx-auto' />
             </div>
           </div>
-          <DownArrow myClass="mx-auto absolute left-1/2 bottom-2 max-md:hidden" />
+          <a href="#projects" className='group'><DownArrow myClass="mx-auto absolute left-1/2 bottom-10 max-md:hidden" pathClass="group-hover:fill-black transition-all duration-300" /></a>
         </div>
       </div>
     </>

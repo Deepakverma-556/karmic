@@ -15,7 +15,7 @@ const Projects = () => {
                     {PROJECTS_IMAGE_LIST.map((obj, i) => (
                         <div key={i} className='w-3/12 max-xl:w-1/3 max-md:w-1/2 max-sm:w-full px-2 pt-6'>
                             <div className='mx-auto hover:scale-125 hover:!z-20 overflow-hidden group max-lg:hover:scale-105 transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center'>
-                                <img src={obj.image} alt={obj.imgAlt} className='h-[174px] w-full object-cover rounded-lg max-lg:group-hover:scale-105 transition-all duration-300' />
+                                <img src={obj.image} alt={obj.imgAlt} className='h-[174px] w-full object-cover rounded-lg' />
                                 <div className='absolute min-h-[47px] flex justify-center items-center bg-darkGray transition-all duration-300 w-full group-hover:bottom-0 bottom-[-50%]'>
                                     <p className='font-sunflower font-bold text-xl leading-[21.7px] text-white text-center w-full'>Nubbies</p>
                                 </div>
