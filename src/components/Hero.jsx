@@ -23,7 +23,7 @@ const Hero = () => {
               <h1 className='uppercase font-sunflower text-[64px] max-lg:text-[44px] max-sm:text-4xl max-lg:leading-tight font-light leading-[69.56px] text-white'>We are believers decentralization and <span className='relative'><img src={line} alt="line" className='absolute -top-3 left-7 pointer-events-none' /><img src={line} alt="line" className='absolute -bottom-1 left-1 pointer-events-none' />WEB3.</span></h1>
               <Description text="Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac." myClass="!leading-7 md:max-w-[570px] pt-[13px] pb-10 max-md:pb-5 max-md:pt-1" />
               <div className='flex items-center gap-8 max-sm:gap-4'>
-                <CustomButton text={`Get Started`} myClass="flex items-center px-[24.47px] group gap-[10px]" icon={<RightArrow myClass="transition-all duration-300 group-hover:translate-x-1" />} />
+                <CustomButton text={`Get Started`} myClass="flex items-center px-[24.47px] group gap-[10px] max-md:!py-3" icon={<RightArrow myClass="transition-all duration-300 group-hover:translate-x-1" />} />
                 <CustomButton text="Read More" myClass="px-[31.62px] !font-light !bg-transparent border border-white !text-white hover:!bg-white hover:!text-black !py-[11.34px]" />
               </div>
             </div>
