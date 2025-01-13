@@ -3,7 +3,7 @@ import titleLine from "../assets/images/png/title-line.png"
 import Heading from '../common/Heading'
 import Description from '../common/Description'
 import { VALUES_LIST } from '../utils/helper'
-import moon from "../assets/images/webp/moon.webp"
+import moon from "../assets/images/png/moon.png"
 
 const Values = () => {
   return (
