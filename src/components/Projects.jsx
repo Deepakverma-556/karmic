@@ -7,7 +7,7 @@ import CustomButton from '../common/CustomButton'
 
 const Projects = () => {
     return (
-        <div className='bg-whiteLayer bg-cover bg-center bg-no-repeat mx-auto'>
+        <div className='bg-whiteLayer bg-cover max-md:bg-center bg-no-repeat mx-auto'>
             <div className='max-w-[1172px] mx-auto px-4 pt-[99px] pb-[121px] max-md:pb-20 max-sm:pt-36 max-sm:pb-32'>
                 <Heading text="Projects" myClass="!text-black pb-6" image={titleBlackLine} imageAlt="title-black-line" />
                 <Description text="Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus." myClass="max-w-[532px] mx-auto !leading-6 !text-black !text-center" />

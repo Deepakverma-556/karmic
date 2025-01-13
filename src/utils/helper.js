@@ -139,7 +139,7 @@ export const KARMIC_LIST = [
 export const VALUES_LIST = [
     {
         icon: <W3 />,
-        title: "w3",
+        title: "W3",
         description: "Not your average degens. Karmic is lead by a team of Industry professionals with extensive backgrounds in web3 and web2. We are actively involved in all that we do. Boots on the ground. We know the ins and outs of the space, because we are building it."
     },
     {

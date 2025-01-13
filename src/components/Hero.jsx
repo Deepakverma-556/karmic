@@ -16,9 +16,9 @@ const Hero = () => {
           <Header />
         </div>
       </div>
-      <div className='bg-heroLayer bg-cover bg-no-repeat w-full mx-auto'>
-        <div className='max-w-[1172px] mx-auto px-4 pt-[140px] pb-[139px] max-md:pt-28 max-md:pb-16 max-sm:pb-10 relative'>
-          <div className='flex flex-wrap justify-between'>
+      <div className='sm:bg-heroLayer bg-cover bg-no-repeat w-full mx-auto'>
+        <div className='max-w-[1172px] mx-auto px-4 pt-[140px] 2xl:pt-60 pb-[139px] max-md:pt-28 max-sm:pt-12 max-md:pb-16 max-sm:pb-2 relative'>
+          <div id='home' className='flex flex-wrap justify-between'>
             <div className='w-7/12 px-3 max-md:w-full'>
               <h1 className='uppercase font-sunflower text-[64px] max-lg:text-[44px] max-sm:text-4xl max-lg:leading-tight font-light leading-[69.56px] text-white'>We are believers decentralization and <span className='relative'><img src={line} alt="line" className='absolute -top-3 left-7 pointer-events-none' /><img src={line} alt="line" className='absolute -bottom-1 left-1 pointer-events-none' />WEB3.</span></h1>
               <Description text="Vulputate tristique habitant neque, accumsan. Vitae ultrices nulla erat nibh aliquam, quis tempus volutpat arcu. Leo convallis luctus dis malesuada turpis non consequat ac." myClass="!leading-7 md:max-w-[570px] pt-[13px] pb-10 max-md:pb-5 max-md:pt-1" />
