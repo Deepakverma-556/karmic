@@ -7,10 +7,10 @@ import moon from "../assets/images/png/moon.png"
 
 const Values = () => {
   return (
-    <div id='about' className='pt-[156px] max-sm:pt-[120px]'>
+    <div id='about' className='pt-[156px] max-md:pt-28 max-sm:pt-[120px]'>
       <div className='max-w-[1172px] px-4 mx-auto'>
         <Heading text="values" image={titleLine} imageAlt="title-line" />
-        <div className='flex flex-wrap pt-[77px] max-sm:pt-10 -mx-2 justify-center'>
+        <div className='flex flex-wrap pt-[77px] max-md:pt-8 max-sm:pt-10 -mx-2 justify-center'>
           {VALUES_LIST.map((obj, i) => (
             <div key={i} className='w-1/3 max-md:w-1/2 max-sm:w-full relative group px-2 max-md:pt-3'>
               <img src={moon} alt="moon" className='absolute -top-[19px] -right-[23px] pointer-events-none h-[74px] hidden group-hover:block' />
