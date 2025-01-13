@@ -12,15 +12,15 @@ module.exports = {
       colors: {
         lightGray: "#fffff1a",
         gray: "#1d1d1d",
-        darkGray:"#4d4d4d"
+        darkGray: "#4d4d4d"
       },
       backgroundImage: {
-        whiteLayer:"url('./assets/images/webp/white-layer.webp')",
-        heroLayer:"url('./assets/images/webp/hero-layer.webp')",
+        whiteLayer: "url('./assets/images/webp/white-layer.webp')",
+        heroLayer: "url('./assets/images/webp/hero-layer.webp')",
       },
       screens: {
         lg: "1025px",
-        md:"770px"
+        md: "770px"
       }
     },
   },

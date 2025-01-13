@@ -7,7 +7,7 @@ import CustomShadow from '../common/CustomShadow'
 
 const Karmic = () => {
   return (
-    <div id='home' className='pt-[81px]'>
+    <div id='home' className='pt-[81px] max-sm:pt-0'>
       <div className='max-w-[1920px] mx-auto relative'>
         <CustomShadow myClass="-top-10 right-0" />
         <div className='max-w-[1172px] px-4 mx-auto'>
