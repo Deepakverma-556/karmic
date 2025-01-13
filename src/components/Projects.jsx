@@ -11,7 +11,7 @@ const Projects = () => {
             <div className='max-w-[1172px] mx-auto px-4 pt-[99px] pb-[121px] max-md:pb-20 max-sm:pt-36 max-sm:pb-32'>
                 <Heading text="Projects" myClass="!text-black pb-6" image={titleBlackLine} imageAlt="title-black-line" />
                 <Description text="Id nam massa sit ut purus tortor est ultrices nunc. Ipsum, nibh egestas vehicula tellus. Molestie adipiscing diam nibh lectus. Magna id nisl quis vestibulum rhoncus." myClass="max-w-[532px] mx-auto !leading-6 !text-black !text-center" />
-                <div className='flex flex-wrap -mx-3 pt-[53px] pb-8 max-md:pt-10 max-md:pb-6 max-sm:pb-6 max-sm:pt-0 justify-center'>
+                <div className='flex flex-wrap -mx-3 pt-[53px] pb-8 max-md:pt-2 max-md:pb-6 max-sm:pb-6 max-sm:pt-0 justify-center'>
                     {PROJECTS_IMAGE_LIST.map((obj, i) => (
                         <div key={i} className='w-3/12 max-xl:w-1/3 max-md:w-1/2 px-2 pt-6'>
                             <div className='mx-auto hover:scale-125 hover:!z-20 overflow-hidden group max-lg:hover:scale-105 transition-all relative duration-300 cursor-pointer flex w-full rounded-lg justify-center'>
